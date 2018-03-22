@@ -6,17 +6,21 @@ import java.util.Vector;
 
 public class IDE {
 
-  public List<Document> document;
-
+  public List<Document> document = new ArrayList<Document>();
+  static IDE singleIDE = new IDE();
     /**
    * 
    * @element-type Document
    */
 
-  public void IDE() {
-    document = new ArrayList<Document>();
+  private void IDE() {
     System.out.println("Am instantiat IDE-ul");
-}
+   }
+  
+  static IDE getInstance()
+  {
+      return singleIDE;
+  }
   
   public void OpenDocument(String path) {
       Document doc = new Document(path);
