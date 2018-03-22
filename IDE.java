@@ -9,14 +9,18 @@ public class IDE {
    * @element-type Document
    */
   public Vector  myDocument;
+    public Vector  myInput_interpreter;
 
-  public void OpenDocument() {
+  public void OpenDocument(String path) {
   }
 
-  public void ChangeFocus( doc) {
+  public void ChangeFocus(Document doc) {
   }
 
   public void saveAll() {
+  }
+
+  public void ExecuteCommand(String comand) {
   }
 
 }

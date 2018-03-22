@@ -2,7 +2,7 @@ import java.util.Vector;
 
 public class Document {
 
-  public string buffer;
+  public String buffer;
 
   public String tempbuffer;
 
@@ -14,11 +14,10 @@ public class Document {
 
     public Vector  myIDE;
 
-  public void moveCursor() {
+  public void moveCursor(int ofx, int ofy) {
   }
 
-  public char addCharacter() {
-  return 'x';
+  public void addCharacter() {
   }
 
   public void Save() {
