@@ -1,27 +1,26 @@
 // Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
-// Source File Name:   Input_interpreter.java
+// Source File Name:   Error.java
 
 package li5;
 
 import java.util.List;
 
-// Referenced classes of package li5:
-//            IDE
-
-public class Input_interpreter
+public class Error
 {
 
-    public Input_interpreter()
+    public Error()
     {
     }
 
-    public void ReadInput()
+    public void newOperation()
     {
     }
 
-    public IDE editor;
-    public List LastCmds;
+    public int LineNumber;
+    public String ErrorCode;
+    public String ErroText;
+    public String line;
     public List myIDE;
 }
