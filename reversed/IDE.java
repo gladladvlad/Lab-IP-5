@@ -5,6 +5,7 @@
 
 package li5;
 
+import java.io.PrintStream;
 import java.util.List;
 
 // Referenced classes of package li5:
@@ -15,14 +16,27 @@ public class IDE
 
     public IDE()
     {
+        throw new RuntimeException("Uncompilable source code - Erroneous tree type: li5.Document");
     }
 
-    public void OpenDocument(String s)
+    private void IDE()
     {
+        System.out.println("Am instantiat IDE-ul");
     }
 
-    public void ChangeFocus(Document document1)
+    static IDE getInstance()
     {
+        return singleIDE;
+    }
+
+    public void OpenDocument(String path)
+    {
+        throw new RuntimeException("Uncompilable source code - Erroneous tree type: li5.Document");
+    }
+
+    public void ChangeFocus(Document doc)
+    {
+        throw new RuntimeException("Uncompilable source code - Erroneous tree type: li5.Document");
     }
 
     public void saveAll()
@@ -33,7 +47,20 @@ public class IDE
     {
     }
 
+    public void AddDoc(String s)
+    {
+    }
+
+    public List ValidateText()
+    {
+        return null;
+    }
+
+    public void HighLight()
+    {
+    }
+
     public List document;
-    public List myDocument;
-    public List myInput_interpreter;
+    static IDE singleIDE = new IDE();
+
 }

@@ -5,7 +5,7 @@
 
 package li5;
 
-import java.util.List;
+import java.util.Vector;
 
 public class Error
 {
@@ -22,5 +22,5 @@ public class Error
     public String ErrorCode;
     public String ErroText;
     public String line;
-    public List myIDE;
+    public Vector myIDE;
 }

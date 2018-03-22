@@ -14,7 +14,7 @@ public class Document
     {
     }
 
-    public void moveCursor(int i, int j)
+    public void moveCursor(int i)
     {
     }
 
@@ -23,6 +23,10 @@ public class Document
     }
 
     public void Save()
+    {
+    }
+
+    public void RemoveChar()
     {
     }
 

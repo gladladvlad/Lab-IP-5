@@ -5,6 +5,7 @@
 
 package li5;
 
+import java.io.PrintStream;
 import java.util.List;
 
 // Referenced classes of package li5:
@@ -15,6 +16,7 @@ public class Input_interpreter
 
     public Input_interpreter()
     {
+        System.out.println("Am instantiat un interpretor!");
     }
 
     public void ReadInput()
@@ -23,5 +25,4 @@ public class Input_interpreter
 
     public IDE editor;
     public List LastCmds;
-    public List myIDE;
 }
