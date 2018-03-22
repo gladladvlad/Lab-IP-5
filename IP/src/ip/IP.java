@@ -15,7 +15,12 @@ public class IP {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+<<<<<<< HEAD
         // TODO code application logic here
+=======
+        IDE testIDE = IDE.getInstance();
+        testIDE.OpenDocument("test path");
+>>>>>>> f535956a3a812764eeaf268998cdaae5753fbc5c
     }
     
 }

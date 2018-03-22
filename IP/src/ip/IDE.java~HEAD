@@ -1,3 +1,7 @@
+package ip;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Vector;
 
 public class IDE {
@@ -8,12 +12,15 @@ public class IDE {
    * 
    * @element-type Document
    */
-  public Vector  myDocument;
-    public Vector  myInput_interpreter;
-    public Vector  myError;
-    public Vector  myError;
 
+  public void IDE() {
+    document = new ArrayList<Document>();
+    System.out.println("Am instantiat IDE-ul");
+}
+  
   public void OpenDocument(String path) {
+      Document doc = new Document(path);
+      document.add(doc);
   }
 
   public void ChangeFocus(Document doc) {

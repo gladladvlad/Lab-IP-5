@@ -30,7 +30,7 @@ public class Document {
     }
     
   
->>>>>>> cb089a86250853c481663e02b0a54f3782fbf921:IP/src/ip/Document.java
+>>>>>>> f535956a3a812764eeaf268998cdaae5753fbc5c:IP/src/ip/Document.java
 
   public void moveCursor(int offs) {
       cursorPosition = cursorPosition + offs;
