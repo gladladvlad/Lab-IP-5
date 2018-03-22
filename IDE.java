@@ -10,6 +10,8 @@ public class IDE {
    */
   public Vector  myDocument;
     public Vector  myInput_interpreter;
+    public Vector  myError;
+    public Vector  myError;
 
   public void OpenDocument(String path) {
   }
@@ -21,6 +23,16 @@ public class IDE {
   }
 
   public void ExecuteCommand(String comand) {
+  }
+
+  public void AddDoc(String Path) {
+  }
+
+  public List<Error> ValidateText() {
+  return null;
+  }
+
+  public void HighLight() {
   }
 
 }

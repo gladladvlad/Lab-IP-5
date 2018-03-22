@@ -14,13 +14,16 @@ public class Document {
 
     public Vector  myIDE;
 
-  public void moveCursor(int ofx, int ofy) {
+  public void moveCursor(int offs) {
   }
 
   public void addCharacter() {
   }
 
   public void Save() {
+  }
+
+  public void RemoveChar() {
   }
 
 }
