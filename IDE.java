@@ -1,26 +1,39 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   IDE.java
+
+package li5;
+
 import java.util.List;
 
-public class IDE {
+// Referenced classes of package li5:
+//            Document
 
-  public List<Document> document;
+public class IDE
+{
 
-    /**
-   * 
-   * @element-type Document
-   */
-  public List<Document>  myDocument;
-    public List<Input_interpreter>  myInput_interpreter;
+    public IDE()
+    {
+    }
 
-  public void OpenDocument(String path) {
-  }
+    public void OpenDocument(String s)
+    {
+    }
 
-  public void ChangeFocus(Document doc) {
-  }
+    public void ChangeFocus(Document document1)
+    {
+    }
 
-  public void saveAll() {
-  }
+    public void saveAll()
+    {
+    }
 
-  public void ExecuteCommand(String comand) {
-  }
+    public void ExecuteCommand(String s)
+    {
+    }
 
+    public List document;
+    public List myDocument;
+    public List myInput_interpreter;
 }
