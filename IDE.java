@@ -1,4 +1,4 @@
-import java.util.Vector;
+import java.util.List;
 
 public class IDE {
 
@@ -8,8 +8,8 @@ public class IDE {
    * 
    * @element-type Document
    */
-  public Vector  myDocument;
-    public Vector  myInput_interpreter;
+  public List<Document>  myDocument;
+    public List<Input_interpreter>  myInput_interpreter;
 
   public void OpenDocument(String path) {
   }

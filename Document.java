@@ -1,4 +1,4 @@
-import java.util.Vector;
+import java.util.List;
 
 public class Document {
 
@@ -11,8 +11,8 @@ public class Document {
   public Integer cursorPosition;
 
   public String path;
-
-    public Vector  myIDE;
+  
+  public List<IDE>  myIDE;
 
   public void moveCursor(int ofx, int ofy) {
   }
