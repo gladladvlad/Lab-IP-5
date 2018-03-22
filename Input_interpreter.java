@@ -4,9 +4,12 @@ public class Input_interpreter {
 
   public IDE editor;
 
-  public List<String> LastCmds;
+  public List<Command> LastCmds;
 
     public Vector  myIDE;
+    public Vector  myCommand;
+    public Vector  myCommand;
+    public Vector  myCommand;
 
   public void ReadInput() {
   }

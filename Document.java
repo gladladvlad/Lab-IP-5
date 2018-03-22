@@ -12,6 +12,12 @@ public class Document {
 
   public String path;
 
+  public Integer newAttr;
+
+  public String Compiler_Path;
+
+  public Vector<String> CompilerOptions;
+
     public Vector  myIDE;
 
   public void moveCursor(int offs) {
@@ -24,6 +30,12 @@ public class Document {
   }
 
   public void RemoveChar() {
+  }
+
+  public void Compile() {
+  }
+
+  public void Run() {
   }
 
 }
